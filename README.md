@@ -1,15 +1,14 @@
 # Online Catalog
 
-Product catalog API built with Spring Boot.
+Online product catalog application built with Spring Boot and Java.
 
 ## Setup
 
-1. Install Java 17+
-2. Install Maven
-3. Run `mvn clean install`
-4. Run `mvn spring-boot:run`
-5. API starts on `http://localhost:8080`
+1. Ensure Java 17+ and Maven are installed
+2. Clone the repository
+3. Run `mvn clean install` to download dependencies
+4. Run `mvn spring-boot:run` to start the application
+5. API will be available at `http://localhost:8080`
+6. Check health at `http://localhost:8080/health`
 
-Health check: `GET http://localhost:8080/health`
-
-Made by MYI
+## Made by MYI
